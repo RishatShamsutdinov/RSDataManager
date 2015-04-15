@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
                    To create stack of CoreData you should do only 2 steps:
 
                    1. Create configuration
-                   2. Create manager with congiguration
+                   2. Create manager with configuration
                    DESC
 
   s.homepage     = "https://github.com/RishatShamsutdinov/RSDataManager"
