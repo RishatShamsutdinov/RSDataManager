@@ -10,6 +10,7 @@
 		FD3D248C1ADBF3800026AFB0 /* RSDataManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FD3D248B1ADBF3800026AFB0 /* RSDataManager.h */; };
 		FD3D248E1ADBF3800026AFB0 /* RSDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3D248D1ADBF3800026AFB0 /* RSDataManager.m */; };
 		FD3D24941ADBF3800026AFB0 /* libRSDataManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3D24881ADBF3800026AFB0 /* libRSDataManager.a */; };
+		FDA8DF9B1ADE615000B9A1A6 /* NSManagedObject+Merging.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA8DF9A1ADE615000B9A1A6 /* NSManagedObject+Merging.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		FD3D24991ADBF3800026AFB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD3D24A51ADC00040026AFB0 /* RSDataManagerConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDataManagerConfiguration.h; sourceTree = "<group>"; };
 		FD87D1071ADCF2F000C057C0 /* RSMigrationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMigrationManager.h; sourceTree = "<group>"; };
+		FDA8DF991ADE615000B9A1A6 /* NSManagedObject+Merging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Merging.h"; sourceTree = "<group>"; };
+		FDA8DF9A1ADE615000B9A1A6 /* NSManagedObject+Merging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Merging.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,7 @@
 		FD3D248A1ADBF3800026AFB0 /* RSDataManager */ = {
 			isa = PBXGroup;
 			children = (
+				FDA8DF981ADE613B00B9A1A6 /* Additions */,
 				FD3D248B1ADBF3800026AFB0 /* RSDataManager.h */,
 				FD3D248D1ADBF3800026AFB0 /* RSDataManager.m */,
 				FD3D24A51ADC00040026AFB0 /* RSDataManagerConfiguration.h */,
@@ -107,6 +111,15 @@
 				FD3D24991ADBF3800026AFB0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDA8DF981ADE613B00B9A1A6 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				FDA8DF991ADE615000B9A1A6 /* NSManagedObject+Merging.h */,
+				FDA8DF9A1ADE615000B9A1A6 /* NSManagedObject+Merging.m */,
+			);
+			name = Additions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD3D248E1ADBF3800026AFB0 /* RSDataManager.m in Sources */,
+				FDA8DF9B1ADE615000B9A1A6 /* NSManagedObject+Merging.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
