@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD3D248C1ADBF3800026AFB0 /* RSDataManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FD3D248B1ADBF3800026AFB0 /* RSDataManager.h */; };
+		FD3D248E1ADBF3800026AFB0 /* RSDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3D248D1ADBF3800026AFB0 /* RSDataManager.m */; };
+		FD3D24941ADBF3800026AFB0 /* libRSDataManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3D24881ADBF3800026AFB0 /* libRSDataManager.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD3D24951ADBF3800026AFB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD3D24801ADBF3800026AFB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD3D24871ADBF3800026AFB0;
+			remoteInfo = RSDataManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FD3D24861ADBF3800026AFB0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				FD3D248C1ADBF3800026AFB0 /* RSDataManager.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FD3D24881ADBF3800026AFB0 /* libRSDataManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRSDataManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3D248B1ADBF3800026AFB0 /* RSDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSDataManager.h; sourceTree = "<group>"; };
+		FD3D248D1ADBF3800026AFB0 /* RSDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDataManager.m; sourceTree = "<group>"; };
+		FD3D24931ADBF3800026AFB0 /* RSDataManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSDataManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3D24991ADBF3800026AFB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD3D24A51ADC00040026AFB0 /* RSDataManagerConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDataManagerConfiguration.h; sourceTree = "<group>"; };
+		FD87D1071ADCF2F000C057C0 /* RSMigrationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMigrationManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD3D24851ADBF3800026AFB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3D24901ADBF3800026AFB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3D24941ADBF3800026AFB0 /* libRSDataManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD3D247F1ADBF3800026AFB0 = {
+			isa = PBXGroup;
+			children = (
+				FD3D248A1ADBF3800026AFB0 /* RSDataManager */,
+				FD3D24971ADBF3800026AFB0 /* RSDataManagerTests */,
+				FD3D24891ADBF3800026AFB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD3D24891ADBF3800026AFB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD3D24881ADBF3800026AFB0 /* libRSDataManager.a */,
+				FD3D24931ADBF3800026AFB0 /* RSDataManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD3D248A1ADBF3800026AFB0 /* RSDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				FD3D248B1ADBF3800026AFB0 /* RSDataManager.h */,
+				FD3D248D1ADBF3800026AFB0 /* RSDataManager.m */,
+				FD3D24A51ADC00040026AFB0 /* RSDataManagerConfiguration.h */,
+				FD87D1071ADCF2F000C057C0 /* RSMigrationManager.h */,
+			);
+			path = RSDataManager;
+			sourceTree = "<group>";
+		};
+		FD3D24971ADBF3800026AFB0 /* RSDataManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD3D24981ADBF3800026AFB0 /* Supporting Files */,
+			);
+			path = RSDataManagerTests;
+			sourceTree = "<group>";
+		};
+		FD3D24981ADBF3800026AFB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD3D24991ADBF3800026AFB0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD3D24871ADBF3800026AFB0 /* RSDataManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3D249C1ADBF3800026AFB0 /* Build configuration list for PBXNativeTarget "RSDataManager" */;
+			buildPhases = (
+				FD3D24841ADBF3800026AFB0 /* Sources */,
+				FD3D24851ADBF3800026AFB0 /* Frameworks */,
+				FD3D24861ADBF3800026AFB0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSDataManager;
+			productName = RSDataManager;
+			productReference = FD3D24881ADBF3800026AFB0 /* libRSDataManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FD3D24921ADBF3800026AFB0 /* RSDataManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3D249F1ADBF3800026AFB0 /* Build configuration list for PBXNativeTarget "RSDataManagerTests" */;
+			buildPhases = (
+				FD3D248F1ADBF3800026AFB0 /* Sources */,
+				FD3D24901ADBF3800026AFB0 /* Frameworks */,
+				FD3D24911ADBF3800026AFB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD3D24961ADBF3800026AFB0 /* PBXTargetDependency */,
+			);
+			name = RSDataManagerTests;
+			productName = RSDataManagerTests;
+			productReference = FD3D24931ADBF3800026AFB0 /* RSDataManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD3D24801ADBF3800026AFB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					FD3D24871ADBF3800026AFB0 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					FD3D24921ADBF3800026AFB0 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = FD3D24831ADBF3800026AFB0 /* Build configuration list for PBXProject "RSDataManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FD3D247F1ADBF3800026AFB0;
+			productRefGroup = FD3D24891ADBF3800026AFB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD3D24871ADBF3800026AFB0 /* RSDataManager */,
+				FD3D24921ADBF3800026AFB0 /* RSDataManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD3D24911ADBF3800026AFB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD3D24841ADBF3800026AFB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3D248E1ADBF3800026AFB0 /* RSDataManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3D248F1ADBF3800026AFB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD3D24961ADBF3800026AFB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD3D24871ADBF3800026AFB0 /* RSDataManager */;
+			targetProxy = FD3D24951ADBF3800026AFB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FD3D249A1ADBF3800026AFB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD3D249B1ADBF3800026AFB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD3D249D1ADBF3800026AFB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FD3D249E1ADBF3800026AFB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FD3D24A01ADBF3800026AFB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RSDataManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD3D24A11ADBF3800026AFB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RSDataManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD3D24831ADBF3800026AFB0 /* Build configuration list for PBXProject "RSDataManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3D249A1ADBF3800026AFB0 /* Debug */,
+				FD3D249B1ADBF3800026AFB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3D249C1ADBF3800026AFB0 /* Build configuration list for PBXNativeTarget "RSDataManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3D249D1ADBF3800026AFB0 /* Debug */,
+				FD3D249E1ADBF3800026AFB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3D249F1ADBF3800026AFB0 /* Build configuration list for PBXNativeTarget "RSDataManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3D24A01ADBF3800026AFB0 /* Debug */,
+				FD3D24A11ADBF3800026AFB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD3D24801ADBF3800026AFB0 /* Project object */;
+}
