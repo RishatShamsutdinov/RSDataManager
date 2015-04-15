@@ -4,4 +4,4 @@ It's awful to copy-paste same code from project to project to create stack of Co
 To create stack of CoreData you should do only 2 steps:
 
 1. Create configuration
-2. Create manager with congiguration
+2. Create manager with configuration
