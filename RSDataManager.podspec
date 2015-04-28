@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RSDataManager"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "Management of CoreData's stack"
 
   s.description  = <<-DESC

@@ -107,6 +107,8 @@
                  set = [(NSOrderedSet *)oldValue set];
              } else if ([oldValue isKindOfClass:[NSSet class]]) {
                  set = oldValue;
+             } else if ([oldValue isKindOfClass:[NSManagedObject class]]) {
+                 set = [NSSet setWithObject:oldValue];
              }
 
              [set enumerateObjectsUsingBlock:^(NSManagedObject *obj, BOOL *stop) {
